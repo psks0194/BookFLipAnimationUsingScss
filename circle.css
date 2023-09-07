@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(167, 190, 115);
 }
 .container{
     position: absolute;
@@ -15,12 +15,12 @@ body{
     top: 50%;
     border-radius: 50%;
     background: #fff;
-    animation: anim 5s linear infinite;
+    animation: anim 3s linear infinite;
 }
 .circle-container{
     /* background: red; */
     width: 400px;
-    height: 250px;
+    height: 25px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -35,7 +35,7 @@ body{
     border-radius: 50%;
     bottom: 0;
     left: 50%;
-    animation: shadow 5s linear infinite;
+    animation: shadow 3s linear infinite;
     opacity: 0.4;
 }
 .circle-container:nth-child(2):after{
